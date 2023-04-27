@@ -11,13 +11,8 @@
   },
   "date": {
     "prefix": "date",
-    "body": ["${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"],
-    "description": "Put the date in (Y-m-D) format"
-  },
-  "dateMDY": {
-    "prefix": "dateMDY",
-    "body": ["${CURRENT_MONTH}/${CURRENT_DATE}/${CURRENT_YEAR}"],
-    "description": "Put the date in (m/D/Y) format"
+    "body": ["${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}"],
+    "description": "Put the date in (d/m/Y) format"
   },
   "time": {
     "prefix": "time",
@@ -31,8 +26,8 @@
   },
   "datetime": {
     "prefix": "datetime",
-    "body": ["${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}"],
-    "description": "I give you back the time and date (Y-m-d H:M)"
+    "body": ["${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR} ${CURRENT_HOUR}:${CURRENT_MINUTE}"],
+    "description": "I give you back the time and date (d/m/Y H:M)"
   },
   "Lorem Ipsum Sentence": {
     "prefix": "loremSent",
