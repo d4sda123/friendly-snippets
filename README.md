@@ -1,5 +1,7 @@
 # Friendly Snippets
 
+This is a fork with my own snippets, the original repo is [here](https://github.com/rafamadriz/friendly-snippets)
+
 Snippets collection for a set of different programming languages for faster development.
 
 The only goal is to have one community driven repository for all kinds of
@@ -72,8 +74,8 @@ CocInstall https://github.com/rafamadriz/friendly-snippets@main
 return {
   'hrsh7th/cmp-nvim-lsp',
   dependencies = {
-	  'rafamadriz/friendly-snippets',
-	  'L3MON4D3/LuaSnip',
+      'rafamadriz/friendly-snippets',
+      'L3MON4D3/LuaSnip',
   },
   config = function()
     -- the rest of your configuration
